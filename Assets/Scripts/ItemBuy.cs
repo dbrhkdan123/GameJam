@@ -8,6 +8,8 @@ public class ItemBuy : MonoBehaviour {
 
     private GameObject gameManager;
 
+    public GameObject question;
+
     public string name = null;
     public int price = -1;
     public int code = -1;
@@ -23,6 +25,14 @@ public class ItemBuy : MonoBehaviour {
 
     public void Buy()
     {
+        var qs = question.gameObject.GetComponent<BuyQuestion>();
+        qs.name = name;
+        qs.price = price;
+        qs.code = code;
+
+        question.SetActive(true);
+
+        /*
         gameManager = GameObject.Find("GameManager");
 
         var gm = gameManager.gameObject.GetComponent<GameManager>();
@@ -38,6 +48,6 @@ public class ItemBuy : MonoBehaviour {
         else
         {
             Debug.Log("" + gm.money + " / " + money);
-        }
+        }*/
     }
 }

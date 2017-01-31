@@ -194,7 +194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &269119326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -392,6 +392,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -568,20 +573,11 @@ Prefab:
       propertyPath: m_Name
       value: ItemBuy1
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012109570026, guid: e7dcf464b80e18448a292e73d08e2043,
-        type: 2}
-      propertyPath: m_Text
-      value: Null
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000013681659326, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
-      propertyPath: m_Name
-      value: Text ItemBuy
-      objectReference: {fileID: 0}
     - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
         type: 2}
-      propertyPath: name
-      value: "\uD5DB\uAC1C\uC218"
-      objectReference: {fileID: 0}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -807,6 +803,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -1514,7 +1515,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012035381404, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
       propertyPath: m_Name
-      value: ItemBuy5 (2)
+      value: ItemBuy7
       objectReference: {fileID: 0}
     - target: {fileID: 1000012035381404, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
       propertyPath: m_IsActive
@@ -1544,6 +1545,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -1672,6 +1678,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -1805,6 +1816,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -2014,7 +2030,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012035381404, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
       propertyPath: m_Name
-      value: ItemBuy5 (1)
+      value: ItemBuy6
       objectReference: {fileID: 0}
     - target: {fileID: 1000012035381404, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
       propertyPath: m_IsActive
@@ -2044,6 +2060,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
@@ -2320,7 +2341,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012035381404, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
       propertyPath: m_Name
-      value: ItemBuy5 (3)
+      value: ItemBuy8
       objectReference: {fileID: 0}
     - target: {fileID: 1000012035381404, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
       propertyPath: m_IsActive
@@ -2350,6 +2371,11 @@ Prefab:
       propertyPath: m_Name
       value: Text ItemBuy
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012951208780, guid: e7dcf464b80e18448a292e73d08e2043,
+        type: 2}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 269119325}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7dcf464b80e18448a292e73d08e2043, type: 2}
   m_IsPrefabParent: 0
