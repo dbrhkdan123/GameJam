@@ -15,7 +15,7 @@ public class BuyQuestion : MonoBehaviour {
     private int money;
     private int item;
 
-    private void Start()
+    private void Update()
     {
         textName = GetComponentInChildren<Text>();
         textName.text = name + "을(를) 구매하시겠습니까?\n" + price + "원이 소모됩니다.";
@@ -45,6 +45,6 @@ public class BuyQuestion : MonoBehaviour {
 
     public void Cancle()
     {
-        enabled = false;
+        this.gameObject.SetActive(false);
     }
 }
