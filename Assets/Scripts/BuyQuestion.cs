@@ -17,7 +17,7 @@ public class BuyQuestion : MonoBehaviour {
 
     private void Update()
     {
-        textName = GetComponentInChildren<Text>();
+        textName = GetComponentInChildren <Text>();
         textName.text = name + "을(를) 구매하시겠습니까?\n" + price + "원이 소모됩니다.";
     }
 
