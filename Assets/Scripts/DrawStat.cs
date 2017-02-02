@@ -11,14 +11,15 @@ public class DrawStat : MonoBehaviour {
     private void Start()
     {
         text = GetComponent<Text>();
+
+        gameManager = GameObject.Find("GameManager");
+
+//        var gm = gameManager.gameObject.GetComponent<GameManager>();
     }
 
     private void Update()
     {
-        gameManager = GameObject.Find("GameManager");
-
-        var gm = gameManager.gameObject.GetComponent<GameManager>();
-
-        text.text = gm.money + "원";
+        //text.text ="지갑 : " + gameManager.gameObject.GetComponent<GameManager>().money+ "원";
+        text.text = gameManager.gameObject.GetComponent<GameManager>().money + "원";
     }
 }

@@ -8,6 +8,8 @@ public class BuyQuestion : MonoBehaviour {
 
     private GameObject gameManager;
 
+    public GameObject info;
+
     public string name = null;
     public int price = -1;
     public int code = -1;
@@ -17,7 +19,7 @@ public class BuyQuestion : MonoBehaviour {
 
     private void Update()
     {
-        textName = GetComponentInChildren <Text>();
+        textName = GetComponentInChildren<Text>();
         textName.text = name + "을(를) 구매하시겠습니까?\n" + price + "원이 소모됩니다.";
     }
 
@@ -34,13 +36,20 @@ public class BuyQuestion : MonoBehaviour {
             money -= price;
             gm.money -= price;
             gm.item[code] += 1;
+
+            info.GetComponent<BuyInformation>().check = true;
         }
         else
         {
-            Debug.Log("" + gm.money + " / " + money);
+            info.GetComponent<BuyInformation>().check = false;
         }
 
-        enabled = false;
+        info.SetActive(true);
+
+        info.GetComponent<BuyInformation>().name = name;
+        info.GetComponent<BuyInformation>().price = price;
+
+        this.gameObject.SetActive(false);
     }
 
     public void Cancle()
